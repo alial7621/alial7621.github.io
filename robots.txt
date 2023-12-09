@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://alial7621.github.io/sitemap.xml
