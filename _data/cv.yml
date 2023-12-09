@@ -1,97 +1,96 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - name: Name
+      value: Ali Lashini
+    - name: Label 
+      value: AI researcher
+    - name: Email
+      value: <a href="mailto:lashini44@gmail.com">lashini44@gmail.com</a>
+    - name: Description
+      value: A Graduate AI Student, interested in computer vision and medical data.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Master
+      institution: <a href="http://www.iust.ac.ir/en">Iran University of Science and Technology</a>, Tehran, Iran
+      year: 2020 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - <i>Artificial Intelligence and Robotics</i>
+        - <b>Thesis:</b> Design of audio-visual speech recognition system using knowledge distillation
+        - Supervised by Dr. Nasser Mozayani
+    - title: Bachelor
+      institution: <a href="https://basu.ac.ir/en/home">Bu-Ali Sina University</a>, Hamedan, Iran
+      year: 2016 - 2020  
       description:
-        - Description 1.
-        - Description 2.
+        - <i>Computer Engineering</i>
 
-- title: Experience
+- title: Academic Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Teaching Assisstant
+      institution: Iran University of Science and Technology, Tehran, Iran
+      year: Fall 2022
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - <b>Natural Language Processing Course</b> (for Graduate Students)
+        - Supervised by Dr. Behrouz Minaei Bidgoli
+
+    - title: Lab Research
+      institution: Iran University of Science and Technology, Tehran, Iran
+      year: Mar - June 2022
       description:
-        - Description 1.
-        - Description 2.
+        -  Working as a part of a team to collect a novel word-level Persian lip reading dataset.
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+    - title:  Lab Research
+      institution: Iran University of Science and Technology, Tehran, Iran
+      year: Mar - Dec 2022
       description:
+        - Working as a part of a team to collect a novel multi-purpose audio-visual dataset for multi-modal Persian speech recognition.
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+    - title: Master's Thesis
+      institution: Iran University of Science and Technology, Tehran, Iran
+      year: Feb - Sep 2023
+      description:
+        - Using knowledge distillation as a way to make an AVSR model become more resistant to environmental noises.
 
-- title: Open Source Projects
+- title: Skills
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: Programing Languages
+      description: 
+        - <b>Python</b>
+        - <b>Java</b>
+        - <b>C, C++</b>
+    - title: Libraries and Frameworks
+      description: 
+        - <b>Pytorch</b>
+        - <b>Tensorflow, Keras</b>
+        - <b>Scikitlearn</b>
+        - <b>OpenCV</b>
+        - <b>NumPy</b>
+        - <b>Pandas</b>
+        - <b>Matplotlib, Seaborn</b>
+    - title:  Tools
+      description: 
+        - <b>Latex, Overleaf</b>
+        - <b>Anaconda</b>
+        - <b>Git</b>
+        - <b>SQL</b>
+        - <b> Notebooks such as Jupyter and Google Colab</b>
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Language
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <b>English:</b> Professional working proficiency
+    - <b>Persian:</b> Native speaker
+
+- title: Certifications and Courses
+  type: list
+  contents:
+    - Machine Learning, Stanford University, Coursera [<a href="https://coursera.org/share/3770e3885df0ce4407712bbe90b6129b">Link</a>]
+
+- title: Hobbies
+  type: list
+  contents:
+    - Jogging, walking, Watching movies and series, Listening to musics and podcasts, etc.
